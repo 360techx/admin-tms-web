@@ -31,6 +31,9 @@
         svg {
             width: 3rem;
         }
+        img {
+            width: 6rem;
+        }
 
         &:focus-visible {
             @include focused();

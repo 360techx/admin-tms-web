@@ -25,6 +25,38 @@ export class AppMenu {
                 items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/'] }]
             },
             {
+                label: 'TMS Enterprise',
+                items: [
+                    { label: 'Clients', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
+                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
+                    { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
+                ]
+            },
+            {
+                label: 'TMS Basic',
+                items: [
+                    { label: 'Clients', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
+                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
+                    { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
+                ]
+            },
+            {
+                label: 'Master Data',
+                items: [
+                    { label: 'Colors', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
+                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
+                    { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
+                ]
+            },
+            {
+                label: 'Configurations',
+                items: [
+                    { label: 'Colors', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
+                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
+                    { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
+                ]
+            },
+            {
                 label: 'UI Components',
                 items: [
                     { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
