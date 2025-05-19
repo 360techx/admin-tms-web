@@ -28,7 +28,7 @@ export class AppMenu {
                 label: 'TMS Enterprise',
                 items: [
                     { label: 'Clients', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
-                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
+                    { label: 'ตั้งค่าใช้งานประเภทรถ', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
                     { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
                 ]
             },
@@ -43,17 +43,19 @@ export class AppMenu {
             {
                 label: 'Master Data',
                 items: [
-                    { label: 'Colors', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
-                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
-                    { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
+                    { label: 'ประเภทรถ', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/colors'] },
+                    { label: 'เมนู Enterprise', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/typography'] },
+                    { label: 'เมนู Basic', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/icons'] },
+                    { label: 'App Module/Operations', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/icons'] }
                 ]
             },
             {
                 label: 'Configurations',
                 items: [
-                    { label: 'Colors', icon: 'pi pi-fw pi-palette', routerLink: ['/uikit/colors'] },
-                    { label: 'Typography', icon: 'pi pi-fw pi-font', routerLink: ['/uikit/typography'] },
-                    { label: 'Icons', icon: 'pi pi-fw pi-prime', routerLink: ['/uikit/icons'] }
+                    { label: 'สร้าง Client ใหม่', icon: 'pi pi-fw pi-cog', routerLink: ['/uikit/colors'] },
+                    { label: 'ตั้งค่า App Module', icon: 'pi pi-fw pi-cog', routerLink: ['/uikit/colors'] },
+                    { label: 'ตั้งค่า Client module template', icon: 'pi pi-fw pi-cog', routerLink: ['/uikit/typography'] },
+                    { label: 'ตั้งค่าสิทธิ์', icon: 'pi pi-fw pi-cog', routerLink: ['/uikit/typography'] },
                 ]
             },
             {
